@@ -1,0 +1,1700 @@
+
+rc"
+receive get Data:
+==========
+1
+==========
+
+
+send AT Command:
+----------
+AT
+
+receive AT Command:
+==========
+AT
+
+OK
+send AT Command:
+----------
+AT+CWMODE=1
+
+receive AT Command:
+==========
+
+AT+CWMODE=1
+
+OK
+send AT Command:
+----------
+AT+CWJAP="CU_4qh9","aqabyf8k"
+
+receive AT Command:
+==========
+
+AT+CWJAP="CU_4qh9","aqabyf8k"
+CLOSED
+WIFI DISCONNECT
+WIFI CONNECTED
+WIFI GOT IP
+
+OK
+send AT Command:
+----------
+AT+CIPMUX=0
+
+receive AT Command:
+==========
+
+AT+CIPMUX=0
+
+OK
+send AT Command:
+----------
+AT+CIFSR
+
+receive AT Command:
+==========
+
+AT+CIFSR
++CIFSR:STAIP,"192.168.18.7"
++CIFSR:STAMAC,"a0:20:a6:07:91:2f"
+
+OKsetup end!
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+
+AT+CIPSTART="TCP","api.heclouds.com",80
+CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+
+
+OK
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:18 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ"
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:19 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ"
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:20 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ"
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:21 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ"
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:22 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ"
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:23 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ"
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:24 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:25 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ"
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:26 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:17:00","unit":"","id":"KEY","unit_symbol":"","current_value":1},"error":"succ"
+receive get Data:
+==========
+1
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:27 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:28 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:29 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:30 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:31 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:31 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:32 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:33 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:34 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:35 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:36 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:37 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:38 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:39 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:40 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:41 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:42 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:43 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:43 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:44 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:45 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:46 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:47 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+"}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+CIPSEND=110
+
+OK
+>
+send AT Command:
+----------
+GET /devices/9711378/datastreams/KEY HTTP/1.1
+api-key:NLUZAFLJRNh1IhSHthWh79dm2Os=
+Host:api.heclouds.com
+
+
+receive AT Command:
+==========
+ 
+Recv 110 bytes
+
+SEND OK
+
++IPD,303:HTTP/1.1 200 OK
+Date: Wed, 12 Jul 2017 10:23:48 GMT
+Content-Type: application/json
+Content-Length: 125
+Connection: keep-alive
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+
+{"errno":0,"data":{"update_at":"2017-07-12 18:23:27","unit":"","id":"KEY","unit_symbol":"","current_value":0},"error":"succ"
+receive get Data:
+==========
+0
+==========
+
+send AT Command:
+----------
+AT+CIPSTART="TCP","api.heclouds.com",80
+
+receive AT Command:
+==========
+}AT+CIPSTART="TCP","api.heclouds.com",80
+ALREADY CONNECT
+send AT Command:
+----------
+AT+CIPSEND=110
+
+receive AT Command:
+==========
+ED
+
+ERROR
+AT+
